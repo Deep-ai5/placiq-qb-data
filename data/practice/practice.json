@@ -1,0 +1,652 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-28T11:50:11Z",
+  "source": {
+    "repo": "Deep-ai5/vyroo",
+    "root": "qb_architecture_v1/data/qb",
+    "files": [
+      "data/qb/questions/python_questions.sample.json",
+      "data/qb/questions/ml_questions.sample.json"
+    ]
+  },
+  "domains": {
+    "python": {
+      "domain_id": "python",
+      "domain_name": "Python Programming",
+      "short_name": "Python",
+      "version": "1.0.0",
+      "questions": [
+        {
+          "question_id": "python_l1_variables_q001",
+          "domain_id": "python",
+          "level_id": "l1_foundation",
+          "module_id": "basics_core",
+          "topic_id": "variables",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Which statement best describes a Python variable?",
+          "options": [
+            "It permanently stores a datatype definition",
+            "It is a name bound to a value",
+            "It can only store numbers",
+            "It must be declared with its type first"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 30,
+          "tags": [
+            "variables"
+          ],
+          "report_tags": [
+            "variables"
+          ],
+          "skill_dimension": "understand",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "python_l1_loops_q002",
+          "domain_id": "python",
+          "level_id": "l1_foundation",
+          "module_id": "basics_core",
+          "topic_id": "loops",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Which loop is commonly used when you want to iterate over items of a list in Python?",
+          "options": [
+            "for loop",
+            "switch loop",
+            "repeat-until loop",
+            "case loop"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 30,
+          "tags": [
+            "loops"
+          ],
+          "report_tags": [
+            "loops"
+          ],
+          "skill_dimension": "apply",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "python_l1_functions_q003",
+          "domain_id": "python",
+          "level_id": "l1_foundation",
+          "module_id": "functions_problem_solving",
+          "topic_id": "functions",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "What is the purpose of the return statement inside a Python function?",
+          "options": [
+            "To repeat the function automatically",
+            "To stop loops globally",
+            "To send a value back to the caller",
+            "To import another module"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 35,
+          "tags": [
+            "functions"
+          ],
+          "report_tags": [
+            "functions"
+          ],
+          "skill_dimension": "understand",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "python_l1_lists_q004",
+          "domain_id": "python",
+          "level_id": "l1_foundation",
+          "module_id": "collections_basics",
+          "topic_id": "lists",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Which list method adds a single new item to the end of a Python list?",
+          "options": [
+            "push()",
+            "insert_end()",
+            "add()",
+            "append()"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 30,
+          "tags": [
+            "lists"
+          ],
+          "report_tags": [
+            "lists"
+          ],
+          "skill_dimension": "remember",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "python_l2_exceptions_q005",
+          "domain_id": "python",
+          "level_id": "l2_applied",
+          "module_id": "runtime_io",
+          "topic_id": "exceptions",
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "Why is a try/except block used in Python?",
+          "options": [
+            "To define a class",
+            "To handle runtime errors gracefully",
+            "To create loops faster",
+            "To convert a list into a tuple"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 35,
+          "tags": [
+            "exceptions"
+          ],
+          "report_tags": [
+            "exceptions"
+          ],
+          "skill_dimension": "apply",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        }
+      ]
+    },
+    "ml": {
+      "domain_id": "ml",
+      "domain_name": "Machine Learning",
+      "short_name": "ML",
+      "version": "1.0.0",
+      "questions": [
+        {
+          "question_id": "ml_l2_linear_regression_q001",
+          "domain_id": "ml",
+          "level_id": "l2_regression",
+          "module_id": "regression_models",
+          "topic_id": "linear_regression",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "In simple linear regression, what does the model primarily try to learn?",
+          "options": [
+            "A boundary between classes",
+            "A line relating one feature to a continuous target",
+            "Only the mean of the dataset",
+            "A cluster center for each class"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 45,
+          "tags": [
+            "regression",
+            "linear_regression"
+          ],
+          "report_tags": [
+            "regression",
+            "linear_regression"
+          ],
+          "skill_dimension": "understand",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "ml_l3_logistic_regression_q002",
+          "domain_id": "ml",
+          "level_id": "l3_classification",
+          "module_id": "classification_models",
+          "topic_id": "logistic_regression",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Logistic regression is mainly used for which kind of task?",
+          "options": [
+            "Clustering unlabeled points",
+            "Predicting continuous house prices",
+            "Classification using class probabilities",
+            "Reducing the number of features only"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 40,
+          "tags": [
+            "classification",
+            "logistic_regression"
+          ],
+          "report_tags": [
+            "classification",
+            "logistic_regression"
+          ],
+          "skill_dimension": "apply",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "ml_l3_random_forest_q003",
+          "domain_id": "ml",
+          "level_id": "l3_classification",
+          "module_id": "classification_models",
+          "topic_id": "random_forest",
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "Why can a random forest often generalize better than a single decision tree?",
+          "options": [
+            "It combines many randomized trees to reduce variance",
+            "It removes the need for training data",
+            "It always produces linear decision boundaries",
+            "It stores every training row as a nearest neighbor"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 50,
+          "tags": [
+            "classification",
+            "random_forest"
+          ],
+          "report_tags": [
+            "classification",
+            "random_forest"
+          ],
+          "skill_dimension": "analyze",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "ml_l4_kmeans_q004",
+          "domain_id": "ml",
+          "level_id": "l4_unsupervised",
+          "module_id": "unsupervised_methods",
+          "topic_id": "kmeans",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "What is the main objective of k-means clustering?",
+          "options": [
+            "Predict labels for new examples",
+            "Find the best regression line",
+            "Estimate feature importance in a forest",
+            "Group points into k clusters by minimizing within-cluster distance"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 45,
+          "tags": [
+            "unsupervised",
+            "kmeans"
+          ],
+          "report_tags": [
+            "unsupervised",
+            "kmeans"
+          ],
+          "skill_dimension": "understand",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        },
+        {
+          "question_id": "ml_l1_train_test_split_q005",
+          "domain_id": "ml",
+          "level_id": "l1_foundation",
+          "module_id": "ml_foundation",
+          "topic_id": "train_test_split",
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Why do we perform a train/test split in supervised learning?",
+          "options": [
+            "To evaluate model performance on unseen data",
+            "To increase the number of labels",
+            "To remove all outliers",
+            "To convert categorical variables into numeric values"
+          ],
+          "marks": 2,
+          "negative_marks": 0.5,
+          "time_limit_sec": 35,
+          "tags": [
+            "foundation",
+            "train_test_split"
+          ],
+          "report_tags": [
+            "foundation",
+            "train_test_split"
+          ],
+          "skill_dimension": "apply",
+          "created_at": "2026-05-16T16:54:00+05:30",
+          "updated_at": "2026-05-16T16:54:00+05:30",
+          "version": "1.0.0",
+          "status": "active"
+        }
+      ]
+    }
+  },
+  "questions": [
+    {
+      "question_id": "python_l1_variables_q001",
+      "domain_id": "python",
+      "level_id": "l1_foundation",
+      "module_id": "basics_core",
+      "topic_id": "variables",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "Which statement best describes a Python variable?",
+      "options": [
+        "It permanently stores a datatype definition",
+        "It is a name bound to a value",
+        "It can only store numbers",
+        "It must be declared with its type first"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 30,
+      "tags": [
+        "variables"
+      ],
+      "report_tags": [
+        "variables"
+      ],
+      "skill_dimension": "understand",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "python_l1_loops_q002",
+      "domain_id": "python",
+      "level_id": "l1_foundation",
+      "module_id": "basics_core",
+      "topic_id": "loops",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "Which loop is commonly used when you want to iterate over items of a list in Python?",
+      "options": [
+        "for loop",
+        "switch loop",
+        "repeat-until loop",
+        "case loop"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 30,
+      "tags": [
+        "loops"
+      ],
+      "report_tags": [
+        "loops"
+      ],
+      "skill_dimension": "apply",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "python_l1_functions_q003",
+      "domain_id": "python",
+      "level_id": "l1_foundation",
+      "module_id": "functions_problem_solving",
+      "topic_id": "functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "What is the purpose of the return statement inside a Python function?",
+      "options": [
+        "To repeat the function automatically",
+        "To stop loops globally",
+        "To send a value back to the caller",
+        "To import another module"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 35,
+      "tags": [
+        "functions"
+      ],
+      "report_tags": [
+        "functions"
+      ],
+      "skill_dimension": "understand",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "python_l1_lists_q004",
+      "domain_id": "python",
+      "level_id": "l1_foundation",
+      "module_id": "collections_basics",
+      "topic_id": "lists",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "Which list method adds a single new item to the end of a Python list?",
+      "options": [
+        "push()",
+        "insert_end()",
+        "add()",
+        "append()"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 30,
+      "tags": [
+        "lists"
+      ],
+      "report_tags": [
+        "lists"
+      ],
+      "skill_dimension": "remember",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "python_l2_exceptions_q005",
+      "domain_id": "python",
+      "level_id": "l2_applied",
+      "module_id": "runtime_io",
+      "topic_id": "exceptions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "Why is a try/except block used in Python?",
+      "options": [
+        "To define a class",
+        "To handle runtime errors gracefully",
+        "To create loops faster",
+        "To convert a list into a tuple"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 35,
+      "tags": [
+        "exceptions"
+      ],
+      "report_tags": [
+        "exceptions"
+      ],
+      "skill_dimension": "apply",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "ml_l2_linear_regression_q001",
+      "domain_id": "ml",
+      "level_id": "l2_regression",
+      "module_id": "regression_models",
+      "topic_id": "linear_regression",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "In simple linear regression, what does the model primarily try to learn?",
+      "options": [
+        "A boundary between classes",
+        "A line relating one feature to a continuous target",
+        "Only the mean of the dataset",
+        "A cluster center for each class"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 45,
+      "tags": [
+        "regression",
+        "linear_regression"
+      ],
+      "report_tags": [
+        "regression",
+        "linear_regression"
+      ],
+      "skill_dimension": "understand",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "ml_l3_logistic_regression_q002",
+      "domain_id": "ml",
+      "level_id": "l3_classification",
+      "module_id": "classification_models",
+      "topic_id": "logistic_regression",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "Logistic regression is mainly used for which kind of task?",
+      "options": [
+        "Clustering unlabeled points",
+        "Predicting continuous house prices",
+        "Classification using class probabilities",
+        "Reducing the number of features only"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 40,
+      "tags": [
+        "classification",
+        "logistic_regression"
+      ],
+      "report_tags": [
+        "classification",
+        "logistic_regression"
+      ],
+      "skill_dimension": "apply",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "ml_l3_random_forest_q003",
+      "domain_id": "ml",
+      "level_id": "l3_classification",
+      "module_id": "classification_models",
+      "topic_id": "random_forest",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": "Why can a random forest often generalize better than a single decision tree?",
+      "options": [
+        "It combines many randomized trees to reduce variance",
+        "It removes the need for training data",
+        "It always produces linear decision boundaries",
+        "It stores every training row as a nearest neighbor"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 50,
+      "tags": [
+        "classification",
+        "random_forest"
+      ],
+      "report_tags": [
+        "classification",
+        "random_forest"
+      ],
+      "skill_dimension": "analyze",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "ml_l4_kmeans_q004",
+      "domain_id": "ml",
+      "level_id": "l4_unsupervised",
+      "module_id": "unsupervised_methods",
+      "topic_id": "kmeans",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "What is the main objective of k-means clustering?",
+      "options": [
+        "Predict labels for new examples",
+        "Find the best regression line",
+        "Estimate feature importance in a forest",
+        "Group points into k clusters by minimizing within-cluster distance"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 45,
+      "tags": [
+        "unsupervised",
+        "kmeans"
+      ],
+      "report_tags": [
+        "unsupervised",
+        "kmeans"
+      ],
+      "skill_dimension": "understand",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "question_id": "ml_l1_train_test_split_q005",
+      "domain_id": "ml",
+      "level_id": "l1_foundation",
+      "module_id": "ml_foundation",
+      "topic_id": "train_test_split",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": "Why do we perform a train/test split in supervised learning?",
+      "options": [
+        "To evaluate model performance on unseen data",
+        "To increase the number of labels",
+        "To remove all outliers",
+        "To convert categorical variables into numeric values"
+      ],
+      "marks": 2,
+      "negative_marks": 0.5,
+      "time_limit_sec": 35,
+      "tags": [
+        "foundation",
+        "train_test_split"
+      ],
+      "report_tags": [
+        "foundation",
+        "train_test_split"
+      ],
+      "skill_dimension": "apply",
+      "created_at": "2026-05-16T16:54:00+05:30",
+      "updated_at": "2026-05-16T16:54:00+05:30",
+      "version": "1.0.0",
+      "status": "active"
+    }
+  ]
+}
