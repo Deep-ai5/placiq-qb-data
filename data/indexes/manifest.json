@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-28T11:50:11Z",
+  "repository": "Deep-ai5/placiq-qb-data",
+  "base_cdn_url": "https://cdn.jsdelivr.net/gh/Deep-ai5/placiq-qb-data@main",
+  "files": {
+    "assessment": {
+      "path": "data/questions/assessment.json",
+      "jsdelivr_url": "https://cdn.jsdelivr.net/gh/Deep-ai5/placiq-qb-data@main/data/questions/assessment.json",
+      "question_count": 10
+    },
+    "practice": {
+      "path": "data/practice/practice.json",
+      "jsdelivr_url": "https://cdn.jsdelivr.net/gh/Deep-ai5/placiq-qb-data@main/data/practice/practice.json",
+      "question_count": 10
+    }
+  },
+  "indexes": {
+    "manifest": {
+      "path": "data/indexes/manifest.json",
+      "jsdelivr_url": "https://cdn.jsdelivr.net/gh/Deep-ai5/placiq-qb-data@main/data/indexes/manifest.json"
+    }
+  },
+  "domains": {
+    "python": 5,
+    "ml": 5
+  },
+  "notes": [
+    "This public export includes question prompts and metadata only.",
+    "Private answer files and pipeline code remain in the private source repository.",
+    "assessment.json and practice.json currently use the same public QB pool because no separate practice source file exists yet."
+  ]
+}
